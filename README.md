@@ -1,13 +1,13 @@
 MovecControlTrack
------------------
+=================
 
 This is an example of fixing issues found in motion vector generation with the
 skinned mesh renderer.
 
-![NG](https://i.imgur.com/Z364VbK.gif)
-![OK](https://i.imgur.com/xoJOXUw.gif)
+Issues
+------
 
-(left: before, right: after)
+![NG](https://i.imgur.com/Z364VbK.gif)
 
 There are two issues with these motion vectors:
 
@@ -16,4 +16,9 @@ There are two issues with these motion vectors:
 2. Wrong depth bias. You can see the arms are drawn over the body (they're
    actually covered by the body).
 
-In this example, these issue are solved by using a custom timeline track.
+Results
+-------
+
+These issue are solved by using a custom timeline track in this example.
+
+![OK](https://i.imgur.com/xoJOXUw.gif)
