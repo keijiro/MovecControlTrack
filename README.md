@@ -9,7 +9,7 @@ Issues
 
 ![NG](https://i.imgur.com/Z364VbK.gif)
 
-There are two issues with these motion vectors:
+There are two issues in this GIF:
 
 1. Initial frame spike. It generates irregularly long motion vectors in the
    first frame from activation.
