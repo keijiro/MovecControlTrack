@@ -450,7 +450,7 @@ MonoBehaviour:
   _depthRepeat: 713.18
   _validateNormals: 0
   _motionOverlayAmplitude: 100
-  _motionVectorsAmplitude: 10
+  _motionVectorsAmplitude: 5
   _motionVectorsResolution: 64
   _shader: {fileID: 4800000, guid: f104e85b3463c2748a02d2f07582fa63, type: 3}
 --- !u!81 &2146507876
