@@ -31,7 +31,7 @@ MonoBehaviour:
   m_Script: {fileID: 442072544, guid: 6a10b2909283487f913b00d94cd3faf5, type: 3}
   m_Name: ActivationPlayableAsset
   m_EditorClassIdentifier: 
---- !u!114 &114282431171286016
+--- !u!114 &114037447267206838
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -42,6 +42,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 874873579bb7db342b99c8a1ed5aaaf8, type: 3}
   m_Name: MovecControl
   m_EditorClassIdentifier: 
+  template:
+    mode: 1
 --- !u!114 &114285044288857398
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -62,8 +64,8 @@ MonoBehaviour:
   m_Clips:
   - m_Start: 0.25
     m_ClipIn: 0
-    m_Asset: {fileID: 114481910388464388}
-    m_UnderlyingAsset: {fileID: 114481910388464388}
+    m_Asset: {fileID: 114612619717751248}
+    m_UnderlyingAsset: {fileID: 114612619717751248}
     m_Duration: 1.3666666666666667
     m_TimeScale: 1
     m_ParentTrack: {fileID: 114285044288857398}
@@ -120,9 +122,9 @@ MonoBehaviour:
     m_Version: 1
   - m_Start: 1.8333333333333333
     m_ClipIn: 0
-    m_Asset: {fileID: 114282431171286016}
-    m_UnderlyingAsset: {fileID: 114481910388464388}
-    m_Duration: 1.2999999999986669
+    m_Asset: {fileID: 114037447267206838}
+    m_UnderlyingAsset: {fileID: 114612619717751248}
+    m_Duration: 1.3
     m_TimeScale: 1
     m_ParentTrack: {fileID: 114285044288857398}
     m_EaseInDuration: 0
@@ -204,7 +206,7 @@ MonoBehaviour:
   m_UseTrackMatchFields: 0
   m_MatchTargetFields: 63
   m_RemoveStartOffset: 1
---- !u!114 &114481910388464388
+--- !u!114 &114612619717751248
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -215,6 +217,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 874873579bb7db342b99c8a1ed5aaaf8, type: 3}
   m_Name: MovecControl
   m_EditorClassIdentifier: 
+  template:
+    mode: 1
 --- !u!114 &114654085426032624
 MonoBehaviour:
   m_ObjectHideFlags: 1
